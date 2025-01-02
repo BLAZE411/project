@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="A1.CSS">
+
+    <a href="LOGIN.HTML" class="nav">Go Back </a>
+    <style>
+        a {
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            position: relative;
+            top: 35px;
+            left: 10px;
+
+        }
+
+        a:hover {
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+        }
+
+        .art1 {
+            background: linear-gradient(rgba(0, 0, 255, 0.491), rgba(255, 255, 255, 0.479),
+                    rgba(0, 0, 255, 0.491));
+            width: 250px;
+            height: auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .art1:hover {
+            background: linear-gradient(rgba(0, 0, 255, 0.491), rgba(255, 255, 255, 0.479),
+                    rgba(0, 0, 255, 0.491));
+            width: 420px;
+            height: auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        article .o {
+            outline: none;
+            border: none;
+            width: 230px;
+            height: 30px;
+            text-align: center;
+            border-radius: 16px;
+            margin-top: 5px;
+            background-color: rgba(0, 0, 255, 0.331);
+            text-align: center;
+        }
+
+        article .i {
+            outline: none;
+            border: none;
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            border-radius: 16px;
+            margin-top: 5px;
+            background-color: rgba(0, 0, 255, 0.331);
+            text-align: center;
+        }
+
+        article .i:hover {
+            outline: none;
+            border: none;
+            width: 180px;
+            height: 30px;
+            text-align: center;
+            border-radius: 16px;
+            margin-top: 5px;
+            background-color: rgba(0, 0, 255, 0.331);
+            text-align: center;
+        }
+
+
+        article .o:hover {
+            outline: none;
+            text-align: center;
+            border-radius: 16px;
+            border: solid 3px rgba(0, 0, 255, 0.562);
+            background-color: rgba(0, 0, 255, 0.331);
+        }
+
+
+
+        ::placeholder {
+            color: black;
+            text-shadow: 2px -2px 2px blue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+        select option {
+            text-shadow: 2px -2px 2px blue;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        }
+
+
+        /* .check::after{
+content: "";
+position: absolute;
+width: 5px;
+height: 12px;
+border: solid 2px white ;
+border-width: 0 3px 3px 0;
+left: 9px;
+top: 4px;
+transform: rotate(45deg);
+        } */
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <article class="art1">
+            <h1 class="log1">
+                <u class="h19"> SIGN UP</u>
+            </h1>
+            <form>
+                <label>PERSONAL PROFILE</label><br>
+                <input type="text" placeholder="FirstName" class="o">
+                <input type="text" placeholder="LastName" class="o">
+                <input type="text" placeholder="OtherName" class="o">
+                <input type="tel" class="o" placeholder="PhoneNumber">
+                <input type="email" class="o" placeholder="Email">
+                <input type="text" class="o" placeholder="Address"><br>
+                <label>Course Of Study(Tick a box)</label><br>
+                <span class="check">
+                    <input type="checkbox"> CYBERSECURITY<br>
+                    <input type="checkbox" name="" id="check">WEB DEVELOPMENT<br>
+                    <input type="checkbox" name="" id="check">MACHINE LEARNING <br>
+                    <input type="checkbox" name="" id="check">DATA ANALYSIS<br>
+                </span><br>
+                <label>Period Of Training(Tick a box)</label><br>
+                <input type="checkbox" name="" id="">Morning(8:00Am - 11:00Am) <br>
+                <input type="checkbox" name="" id="">Afternoon(12:00Pm - 3:00pm) <br>
+                <input type="checkbox" name="" id="">Evening(4:00pm - 6:00pm) <br><br>
+                <label>Gender(Tick a box)</label><br>
+                <input type="radio" name="" id="">Male <br>
+                <input type="radio" name="" id="">Female <br>
+                <input type="radio" name="" id="">Custom <br><br>
+                <label>OTHER DETAILS</label><br>
+                <label>Nationality</label><br>
+                <select class="o">
+                    <option>United States</option>
+                    <option>Nigeria</option>
+                    <option>Portugal</option>
+                    <option>Spain</option>
+                    <option>Argentina</option>
+                </select> <br><br>
+                <label> Date Of Birth</label> <br>
+                <input type="date" class="o"><br><br>
+                <label> Presidential Guardian Number </label><br>
+                <input type="tel" class="o" placeholder="P.G.N"> <br> <br>
+                <label>Username</label><br>
+                <input type="text" placeholder="Username" class="o"><br><br>
+                <label for="">Password</label><br>
+                <input type="password" class="o" placeholder="Password"><br><br>
+                <label> Religion(Tick a box) </label><br>
+                <input type="checkbox">Islamic <br>
+                <input type="checkbox">Christain <br>
+                <input type="checkbox">Traditional <br><br>
+                <label>Please How Did You Get To This Institution <br>
+                    (Tick a box)</label> <br>
+                <input type="checkbox">An Ex Student <br>
+                <input type="checkbox">Bulk Sms <br>
+                <input type="checkbox">Banner <br>
+                <input type="checkbox">Social Media <br>
+                <input type="checkbox">Website <br>
+                <input type="checkbox">Others <br> <br>
+                <input type="submit" class="i">
+
+
+
+            </form>
+        </article>
+    </center>
+</body>
+
+</html>

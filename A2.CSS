@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.log1:hover {
+    text-shadow: 2px 2px 2px blue;
+
+}
+
+.log1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+::placeholder {
+    text-shadow: 2px -2px 2px blue;
+}
+
+.label1 {
+    margin-left: 20px;
+}
+
+
+
+.logcon1 {
+    /* background: url(kum.webp); */
+
+    background: linear-gradient(rgba(0, 0, 255, 0.491), rgba(255, 255, 255, 0.479),
+            rgba(0, 0, 255, 0.491));
+    width: 400px;
+    height: 400px;
+   
+}
+
+.logcon1:hover {
+
+    background: linear-gradient(rgba(0, 0, 255, 0.491), rgba(255, 255, 255, 0.479),
+            rgba(0, 0, 255, 0.491));
+    width: 450px;
+    height: 400px;
+}
+#lab1{
+   margin-left:0px;
+   display: inline-block;
+}
+#log4{
+    width: 15px;
+}
+
+#check{
+    width: 20px;
+    position: relative;
+    right: 85px;
+}
+
